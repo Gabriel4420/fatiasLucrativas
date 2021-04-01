@@ -125,6 +125,22 @@ footer{
     background-color:rgb(148, 92, 148);
 }
 
+.fa.icone {
+    font-size: 46px;
+    color: white;
+    opacity: 1;
+    animation: anima 1500ms ease infinite;
+    position:relative;
+    top:-75px;
+    left:50px;
+}
+@keyframes anima {
+    to {
+        opacity: 0.1;
+        transform: scale(0.85) translateY(20px);
+    }
+}
+
 @media (max-width: 958px){
 
 
