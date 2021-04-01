@@ -109,19 +109,23 @@ footer{
     background-color:rgb(75, 2, 75);
     color:white;
     font-size:18px;
+
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
 }
 
 ::-webkit-scrollbar-thumb{
-    width:10px; 
     background:purple;
 }
-::-webkit-scrollbar-button{
+::-webkit-scrollbar-track{
    
-    width:10px; 
-    background-color:purple;
+    background-color:rgb(148, 92, 148);
 }
 
-@media (max-width: 468px){
+@media (max-width: 958px){
 
 
     .form{
