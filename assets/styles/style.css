@@ -32,7 +32,7 @@ main .container{
     background-image:linear-gradient(rgba(0, 0, 0, 0.548),rgba(31, 30, 30, 0.603)), url('../images/banner-01.jpg'); 
     background-repeat: no-repeat;
     background-size:100% 568px;
-    height: 560px;
+    height: 86vh;
     width: 100%;
     padding-top:50px;
 }
